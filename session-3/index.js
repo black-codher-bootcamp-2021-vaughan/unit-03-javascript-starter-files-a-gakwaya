@@ -5,3 +5,14 @@ let a = 5;
 let b = 10; 
 const c = a + b; 
 console.log('Original ouput: ' + c)
+
+
+function SayHey() { console.log("Hey!"); }
+
+function conversation() {
+    SayHey();
+    console.log("How are you?");
+    console.log("Goodbye");
+}
+
+conversation()
