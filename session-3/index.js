@@ -16,3 +16,12 @@ function conversation() {
 }
 
 conversation()
+
+
+function futureAge (name, currentage) { 
+    const age = currentage + 5;
+    return " Hi " + name + " You will be " + age + "in 5 years time!";
+}
+
+console.log(futureAge("Mary", 17));
+
